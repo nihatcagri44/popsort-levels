@@ -1,9 +1,9 @@
 {
   "schemaVersion": 3,
-  "version": 1,
-  "updatedAt": "2026-05-22T13:23:45Z",
-  "repoSha": "bootstrap",
-  "notes": "Initial bootstrap — A and B identical (30 levels each)",
+  "version": 2,
+  "updatedAt": "2026-05-22T13:27:41Z",
+  "repoSha": "06fefdcc026d42af73e34b1b758365d21a4ca214",
+  "notes": "Initial bootstrap: 30 levels in A and B (identical), manifest + regen workflow",
   "variants": {
     "AVariantLevel": {
       "totalLevels": 30,
