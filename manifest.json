@@ -1,9 +1,9 @@
 {
   "schemaVersion": 3,
-  "version": 2,
-  "updatedAt": "2026-05-22T13:27:41Z",
-  "repoSha": "06fefdcc026d42af73e34b1b758365d21a4ca214",
-  "notes": "Initial bootstrap: 30 levels in A and B (identical), manifest + regen workflow",
+  "version": 3,
+  "updatedAt": "2026-05-22T13:54:54Z",
+  "repoSha": "f39614eceaa0388da693fa1fe268b0967c55413e",
+  "notes": "test(P1.1): add _testMarker to B/level_001 to force per-file hash bump",
   "variants": {
     "AVariantLevel": {
       "totalLevels": 30,
@@ -43,7 +43,7 @@
     "BVariantLevel": {
       "totalLevels": 30,
       "levels": {
-        "1": "ceeab7814a02",
+        "1": "b46c34a25009",
         "2": "33e37517bb6c",
         "3": "23fcfac99765",
         "4": "049bfdcc44b2",
