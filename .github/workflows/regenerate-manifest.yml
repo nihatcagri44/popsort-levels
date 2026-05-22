@@ -1,0 +1,64 @@
+name: Regenerate manifest.json
+
+# Runs whenever a level JSON changes (typically via sync-popsort-levels.yml
+# pushing from gamejam2). Rebuilds manifest.json with the current commit SHA
+# and per-file sha256 hashes, then commits it back to main.
+#
+# Unity clients pull manifest.json via GitHub Contents API (instant, no ref
+# cache) and use manifest.repoSha to build SHA-pinned jsDelivr URLs for
+# immutable level downloads.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'AVariantLevel/**'
+      - 'BVariantLevel/**'
+      - 'scripts/build-manifest.py'
+      - '.github/workflows/regenerate-manifest.yml'
+  workflow_dispatch:
+    inputs:
+      notes:
+        description: 'Optional notes for the manifest entry'
+        required: false
+        default: 'Manual regeneration'
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    # Skip the runs triggered by our own manifest commit to avoid infinite loops.
+    if: github.event.head_commit.author.name != 'manifest-bot' || github.event_name == 'workflow_dispatch'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Build manifest
+        env:
+          GITHUB_SHA: ${{ github.sha }}
+          MANIFEST_NOTES: ${{ github.event.inputs.notes || github.event.head_commit.message }}
+        run: python3 scripts/build-manifest.py
+
+      - name: Commit manifest
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "manifest-bot"
+          if git diff --quiet manifest.json; then
+            echo "Manifest unchanged — skipping commit."
+            exit 0
+          fi
+          NEW_V=$(python3 -c 'import json; print(json.load(open("manifest.json"))["version"])')
+          git add manifest.json
+          git commit -m "regen: manifest v${NEW_V} (sha=${GITHUB_SHA:0:8})"
+          git push
+          echo "→ manifest v${NEW_V} pushed. Unity clients will see it on next fetch."

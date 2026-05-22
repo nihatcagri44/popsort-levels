@@ -1,0 +1,10 @@
+# Force LF line endings for all text content so sha256 hashes in manifest.json
+# stay deterministic across platforms (Windows checkout + Linux CI must produce
+# the same bytes). Without this, Windows clones with autocrlf=true rewrite
+# level_*.json with CRLF on checkout, and a manifest regenerated on Windows
+# would have different hashes than one regenerated on Linux CI.
+* text=auto eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
