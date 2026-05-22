@@ -1,9 +1,9 @@
 {
   "schemaVersion": 3,
-  "version": 3,
-  "updatedAt": "2026-05-22T13:54:54Z",
-  "repoSha": "f39614eceaa0388da693fa1fe268b0967c55413e",
-  "notes": "test(P1.1): add _testMarker to B/level_001 to force per-file hash bump",
+  "version": 4,
+  "updatedAt": "2026-05-22T14:00:19Z",
+  "repoSha": "96ba719ef6c885ad1e4499d4696a1ad39d6c2245",
+  "notes": "test(P1.2): revert _testMarker — verify hash returns to baseline",
   "variants": {
     "AVariantLevel": {
       "totalLevels": 30,
@@ -43,7 +43,7 @@
     "BVariantLevel": {
       "totalLevels": 30,
       "levels": {
-        "1": "b46c34a25009",
+        "1": "3ee48deffc9c",
         "2": "33e37517bb6c",
         "3": "23fcfac99765",
         "4": "049bfdcc44b2",
