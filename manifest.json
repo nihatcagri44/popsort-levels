@@ -1,9 +1,9 @@
 {
   "schemaVersion": 3,
-  "version": 7,
-  "updatedAt": "2026-06-24T20:52:16Z",
-  "repoSha": "24eaecfde26832f63823392aaab5f82b4a88709f",
-  "notes": "publish: 20 level(s) from Unity d2a0d020 — B-variant L8-L15, L18-L29 (cell_b → BVariantLevel sync, 20 levels)\n\nTriggered manually by nihatcagri44 via workflow_dispatch. Mirrors gamejam2Unity/Assets/_GAME/Resources/{A,B}VariantLevel/ from DawnbrightGames/gamejam2@d2a0d020. Downstream Action regenerates manifest.json.",
+  "version": 8,
+  "updatedAt": "2026-06-24T21:00:38Z",
+  "repoSha": "f4669fa44e76f26ebb6c252a2ee580f69298550c",
+  "notes": "publish: 8 level(s) from Unity 425454eb — Sync stale inovaktif levels L7,47,59,65,67,71,91,100 (latest cell_b)\n\nTriggered manually by nihatcagri44 via workflow_dispatch. Mirrors gamejam2Unity/Assets/_GAME/Resources/{A,B}VariantLevel/ from DawnbrightGames/gamejam2@425454eb. Downstream Action regenerates manifest.json.",
   "variants": {
     "AVariantLevel": {
       "totalLevels": 200,
@@ -219,7 +219,7 @@
         "4": "dbeae32323c1",
         "5": "c5d7f797acad",
         "6": "9cb0cd9fbd3b",
-        "7": "84d9d88312a8",
+        "7": "bd5418bf7877",
         "8": "186cd886e582",
         "9": "40e3b82653fb",
         "10": "030a5f7ceee4",
@@ -259,7 +259,7 @@
         "44": "dac682c5c08a",
         "45": "c6eb9faad399",
         "46": "ee77d40e858d",
-        "47": "bf0eeda8e7cb",
+        "47": "b25cc4cf6a7a",
         "48": "9f3f1f919519",
         "49": "ff576ee7b426",
         "50": "13c9797f537e",
@@ -271,19 +271,19 @@
         "56": "0af8c3581cc1",
         "57": "13177fc768d1",
         "58": "92cdfbdb2ee7",
-        "59": "36e823dc8834",
+        "59": "fde3f592e8c1",
         "60": "28c8110324ac",
         "61": "1b2af015ea74",
         "62": "5c3700af84be",
         "63": "ba91d9191048",
         "64": "f6188de14bf3",
-        "65": "553c89498f9b",
+        "65": "c6f9af387b5c",
         "66": "df645c8cd1d3",
-        "67": "7f347bfcbf5b",
+        "67": "2984fb960961",
         "68": "36e8b5577569",
         "69": "85f86196b9cd",
         "70": "fdcd870399bb",
-        "71": "a6fa2d3343b7",
+        "71": "14d82f8d3907",
         "72": "0017561ce095",
         "73": "80739c226c5d",
         "74": "6743b25bea06",
@@ -303,7 +303,7 @@
         "88": "53df6fcc2521",
         "89": "0b9d808327fd",
         "90": "da8af48caba2",
-        "91": "1188c83e2ef6",
+        "91": "eca95a9afab6",
         "92": "05a29a1c063f",
         "93": "290df5bbc4ec",
         "94": "15f17d8b492d",
@@ -312,7 +312,7 @@
         "97": "d9000d937114",
         "98": "ad819c0bc008",
         "99": "da7a4460791f",
-        "100": "46beef732a5f"
+        "100": "c75e13e0701c"
       }
     }
   }
