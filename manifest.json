@@ -1,9 +1,9 @@
 {
   "schemaVersion": 3,
-  "version": 5,
-  "updatedAt": "2026-06-21T20:05:52Z",
-  "repoSha": "11426214b7331986b1bb9c5827df32c01c3e05c0",
-  "notes": "publish: 300 level(s) from Unity dd0ca7aa — Publish 200 A-variant + 100 B-variant levels (inovaktif 06-19 set) — first publish since May 22\n\nTriggered manually by nihatcagri44 via workflow_dispatch. Mirrors gamejam2Unity/Assets/_GAME/Resources/{A,B}VariantLevel/ from DawnbrightGames/gamejam2@dd0ca7aa. Downstream Action regenerates manifest.json.",
+  "version": 6,
+  "updatedAt": "2026-06-24T20:44:47Z",
+  "repoSha": "c7afe41593d6af37ef3aa8de8664d816f43e9c9a",
+  "notes": "publish: 3 level(s) from Unity b3b42536 — B-variant L16 + L17 (cell_b → BVariantLevel sync)\n\nTriggered manually by nihatcagri44 via workflow_dispatch. Mirrors gamejam2Unity/Assets/_GAME/Resources/{A,B}VariantLevel/ from DawnbrightGames/gamejam2@b3b42536. Downstream Action regenerates manifest.json.",
   "variants": {
     "AVariantLevel": {
       "totalLevels": 200,
@@ -62,7 +62,7 @@
         "52": "935d8276c994",
         "53": "7dc3fd4ed319",
         "54": "70f7c48cf790",
-        "55": "a6b8f47c0d50",
+        "55": "03f647891b17",
         "56": "94406e8c4557",
         "57": "a9c5d8e1f805",
         "58": "c14902d2235d",
@@ -228,8 +228,8 @@
         "13": "a7647ac91a28",
         "14": "6afffd909995",
         "15": "3db47f3a7208",
-        "16": "602783ca0361",
-        "17": "c0e44efcc564",
+        "16": "4c5597b219ba",
+        "17": "9a5e3bd3b492",
         "18": "5991ca7e7153",
         "19": "9b31767ec23f",
         "20": "f65724593a1e",
