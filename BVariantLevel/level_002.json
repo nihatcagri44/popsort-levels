@@ -1,7 +1,9 @@
-﻿{
+{
     "levelNumber": 2,
     "gridCols": 7,
     "gridRows": 7,
+    "hiddenBucketsEnabled": false,
+    "hiddenBucketCount": 0,
     "cells": [
         {
             "x": 0,
@@ -11,13 +13,6 @@
             "packageCount": 0
         },
         {
-            "x": 1,
-            "y": 0,
-            "type": 1,
-            "color": 0,
-            "packageCount": 0
-        },
-        {
             "x": 2,
             "y": 0,
             "type": 0,
@@ -25,24 +20,10 @@
             "packageCount": 0
         },
         {
-            "x": 3,
-            "y": 0,
-            "type": 1,
-            "color": 3,
-            "packageCount": 0
-        },
-        {
             "x": 4,
             "y": 0,
             "type": 0,
             "color": 0,
-            "packageCount": 0
-        },
-        {
-            "x": 5,
-            "y": 0,
-            "type": 1,
-            "color": 2,
             "packageCount": 0
         },
         {
@@ -60,13 +41,6 @@
             "packageCount": 0
         },
         {
-            "x": 1,
-            "y": 1,
-            "type": 1,
-            "color": 0,
-            "packageCount": 0
-        },
-        {
             "x": 2,
             "y": 1,
             "type": 0,
@@ -74,24 +48,10 @@
             "packageCount": 0
         },
         {
-            "x": 3,
-            "y": 1,
-            "type": 1,
-            "color": 3,
-            "packageCount": 0
-        },
-        {
             "x": 4,
             "y": 1,
             "type": 0,
             "color": 0,
-            "packageCount": 0
-        },
-        {
-            "x": 5,
-            "y": 1,
-            "type": 1,
-            "color": 2,
             "packageCount": 0
         },
         {
@@ -123,13 +83,6 @@
             "packageCount": 0
         },
         {
-            "x": 3,
-            "y": 2,
-            "type": 1,
-            "color": 3,
-            "packageCount": 0
-        },
-        {
             "x": 4,
             "y": 2,
             "type": 0,
@@ -140,7 +93,7 @@
             "x": 5,
             "y": 2,
             "type": 1,
-            "color": 2,
+            "color": 1,
             "packageCount": 0
         },
         {
@@ -160,19 +113,12 @@
         {
             "x": 1,
             "y": 3,
-            "type": 0,
-            "color": 0,
+            "type": 1,
+            "color": 1,
             "packageCount": 0
         },
         {
             "x": 2,
-            "y": 3,
-            "type": 0,
-            "color": 0,
-            "packageCount": 0
-        },
-        {
-            "x": 3,
             "y": 3,
             "type": 0,
             "color": 0,
@@ -188,7 +134,7 @@
         {
             "x": 5,
             "y": 3,
-            "type": 0,
+            "type": 1,
             "color": 0,
             "packageCount": 0
         },
@@ -215,13 +161,6 @@
         },
         {
             "x": 2,
-            "y": 4,
-            "type": 0,
-            "color": 0,
-            "packageCount": 0
-        },
-        {
-            "x": 3,
             "y": 4,
             "type": 0,
             "color": 0,
@@ -272,7 +211,7 @@
         {
             "x": 3,
             "y": 5,
-            "type": 0,
+            "type": 1,
             "color": 0,
             "packageCount": 0
         },

@@ -2,126 +2,167 @@
     "levelNumber": 31,
     "gridCols": 7,
     "gridRows": 7,
+    "hiddenBucketsEnabled": true,
+    "hiddenBucketCount": 3,
     "cells": [
         {
             "x": 0,
             "y": 0,
             "type": 1,
             "color": 3,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 1,
             "y": 0,
             "type": 1,
             "color": 0,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 2,
             "y": 0,
             "type": 0,
             "color": 0,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 3,
             "y": 0,
             "type": 0,
             "color": 0,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 4,
             "y": 0,
             "type": 0,
             "color": 0,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 5,
             "y": 0,
             "type": 1,
             "color": 1,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 6,
             "y": 0,
             "type": 1,
             "color": 2,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 0,
             "y": 1,
             "type": 0,
             "color": 0,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 1,
             "y": 1,
             "type": 1,
             "color": 3,
-            "packageCount": 0
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "type": 1,
-            "color": 0,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 3,
             "y": 1,
             "type": 0,
             "color": 0,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 4,
             "y": 1,
             "type": 1,
             "color": 1,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 5,
             "y": 1,
             "type": 1,
             "color": 2,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 6,
             "y": 1,
             "type": 0,
             "color": 0,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 0,
             "y": 2,
             "type": 0,
             "color": 0,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 1,
             "y": 2,
             "type": 0,
             "color": 0,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 2,
             "y": 2,
             "type": 2,
             "color": 3,
-            "packageCount": 9,
+            "packageCount": 10,
             "packageColors": [
+                0,
                 3,
                 2,
                 1,
@@ -131,7 +172,9 @@
                 2,
                 2,
                 3
-            ]
+            ],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 3,
@@ -139,49 +182,69 @@
             "type": 1,
             "color": 3,
             "packageCount": 0,
-            "hidden": true
+            "packageColors": [],
+            "hidden": true,
+            "tunnelDir": 0
         },
         {
             "x": 4,
             "y": 2,
             "type": 1,
             "color": 0,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 5,
             "y": 2,
             "type": 0,
             "color": 0,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 6,
             "y": 2,
             "type": 0,
             "color": 0,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 0,
             "y": 3,
             "type": 0,
             "color": 0,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 1,
             "y": 3,
             "type": 0,
             "color": 0,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 2,
             "y": 3,
             "type": 0,
             "color": 0,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 3,
@@ -189,42 +252,59 @@
             "type": 1,
             "color": 1,
             "packageCount": 0,
-            "hidden": true
+            "packageColors": [],
+            "hidden": true,
+            "tunnelDir": 0
         },
         {
             "x": 4,
             "y": 3,
             "type": 0,
             "color": 0,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 5,
             "y": 3,
             "type": 0,
             "color": 0,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 6,
             "y": 3,
             "type": 0,
             "color": 0,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 0,
             "y": 4,
             "type": 0,
             "color": 0,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 1,
             "y": 4,
             "type": 0,
             "color": 0,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 2,
@@ -232,7 +312,9 @@
             "type": 1,
             "color": 2,
             "packageCount": 0,
-            "hidden": true
+            "packageColors": [],
+            "hidden": true,
+            "tunnelDir": 0
         },
         {
             "x": 3,
@@ -240,7 +322,9 @@
             "type": 1,
             "color": 3,
             "packageCount": 0,
-            "hidden": true
+            "packageColors": [],
+            "hidden": true,
+            "tunnelDir": 0
         },
         {
             "x": 4,
@@ -248,28 +332,39 @@
             "type": 1,
             "color": 0,
             "packageCount": 0,
-            "hidden": true
+            "packageColors": [],
+            "hidden": true,
+            "tunnelDir": 0
         },
         {
             "x": 5,
             "y": 4,
             "type": 0,
             "color": 0,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 6,
             "y": 4,
             "type": 0,
             "color": 0,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 0,
             "y": 5,
             "type": 0,
             "color": 0,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 1,
@@ -277,7 +372,9 @@
             "type": 1,
             "color": 1,
             "packageCount": 0,
-            "hidden": true
+            "packageColors": [],
+            "hidden": true,
+            "tunnelDir": 0
         },
         {
             "x": 2,
@@ -285,14 +382,19 @@
             "type": 1,
             "color": 2,
             "packageCount": 0,
-            "hidden": true
+            "packageColors": [],
+            "hidden": true,
+            "tunnelDir": 0
         },
         {
             "x": 3,
             "y": 5,
             "type": 0,
             "color": 0,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 4,
@@ -300,7 +402,9 @@
             "type": 1,
             "color": 3,
             "packageCount": 0,
-            "hidden": true
+            "packageColors": [],
+            "hidden": true,
+            "tunnelDir": 0
         },
         {
             "x": 5,
@@ -308,14 +412,19 @@
             "type": 1,
             "color": 0,
             "packageCount": 0,
-            "hidden": true
+            "packageColors": [],
+            "hidden": true,
+            "tunnelDir": 0
         },
         {
             "x": 6,
             "y": 5,
             "type": 0,
             "color": 0,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 0,
@@ -323,7 +432,9 @@
             "type": 1,
             "color": 1,
             "packageCount": 0,
-            "hidden": true
+            "packageColors": [],
+            "hidden": true,
+            "tunnelDir": 0
         },
         {
             "x": 1,
@@ -331,28 +442,39 @@
             "type": 1,
             "color": 2,
             "packageCount": 0,
-            "hidden": true
+            "packageColors": [],
+            "hidden": true,
+            "tunnelDir": 0
         },
         {
             "x": 2,
             "y": 6,
             "type": 0,
             "color": 0,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 3,
             "y": 6,
             "type": 0,
             "color": 0,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 4,
             "y": 6,
             "type": 0,
             "color": 0,
-            "packageCount": 0
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0
         },
         {
             "x": 5,
@@ -360,7 +482,9 @@
             "type": 1,
             "color": 3,
             "packageCount": 0,
-            "hidden": true
+            "packageColors": [],
+            "hidden": true,
+            "tunnelDir": 0
         },
         {
             "x": 6,
@@ -368,9 +492,9 @@
             "type": 1,
             "color": 0,
             "packageCount": 0,
-            "hidden": true
+            "packageColors": [],
+            "hidden": true,
+            "tunnelDir": 0
         }
-    ],
-    "hiddenBucketsEnabled": true,
-    "hiddenBucketCount": 3
+    ]
 }
