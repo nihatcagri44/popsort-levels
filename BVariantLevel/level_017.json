@@ -28,11 +28,11 @@
         {
             "x": 2,
             "y": 6,
-            "type": 0,
-            "color": 0,
+            "type": 1,
+            "color": 1,
             "packageCount": 0,
             "packageColors": [],
-            "hidden": false,
+            "hidden": true,
             "tunnelDir": 0
         },
         {

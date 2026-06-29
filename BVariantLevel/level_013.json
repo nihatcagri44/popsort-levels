@@ -109,7 +109,7 @@
             "color": 0,
             "packageCount": 0,
             "packageColors": [],
-            "hidden": true,
+            "hidden": false,
             "tunnelDir": 0
         },
         {
