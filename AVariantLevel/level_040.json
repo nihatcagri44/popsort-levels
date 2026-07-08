@@ -2,58 +2,19 @@
     "levelNumber": 40,
     "gridCols": 7,
     "gridRows": 7,
-    "hiddenBucketsEnabled": true,
+    "hiddenBucketsEnabled": false,
     "hiddenBucketCount": 3,
     "cells": [
         {
             "x": 0,
             "y": 0,
-            "type": 1,
-            "color": 2,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "type": 1,
-            "color": 1,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "type": 1,
-            "color": 2,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0
-        },
-        {
-            "x": 4,
-            "y": 0,
-            "type": 1,
+            "type": 0,
             "color": 0,
             "packageCount": 0,
             "packageColors": [],
             "hidden": false,
-            "tunnelDir": 0
-        },
-        {
-            "x": 6,
-            "y": 0,
-            "type": 1,
-            "color": 2,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
         },
         {
             "x": 0,
@@ -63,423 +24,987 @@
             "packageCount": 0,
             "packageColors": [],
             "hidden": false,
-            "tunnelDir": 0
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "type": 0,
+            "color": 0,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "type": 0,
+            "color": 0,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "type": 0,
+            "color": 0,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "type": 0,
+            "color": 0,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "type": 0,
+            "color": 0,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "type": 0,
+            "color": 0,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "type": 0,
+            "color": 0,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "type": 0,
+            "color": 0,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "type": 0,
+            "color": 0,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "type": 0,
+            "color": 0,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "type": 0,
+            "color": 0,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "type": 0,
+            "color": 0,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "type": 0,
+            "color": 0,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "type": 0,
+            "color": 0,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "type": 0,
+            "color": 0,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "type": 0,
+            "color": 0,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "type": 0,
+            "color": 0,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "type": 0,
+            "color": 0,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "type": 0,
+            "color": 0,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "type": 0,
+            "color": 0,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "type": 0,
+            "color": 0,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "type": 1,
+            "color": 0,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": true,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "type": 1,
+            "color": 2,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": true,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "type": 1,
+            "color": 5,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "type": 1,
+            "color": 3,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": true,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "type": 1,
+            "color": 3,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": true,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "type": 1,
+            "color": 0,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": true,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "type": 1,
+            "color": 0,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": true,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "type": 1,
+            "color": 2,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": true,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "type": 1,
+            "color": 2,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "type": 1,
+            "color": 2,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "type": 1,
+            "color": 2,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "type": 1,
+            "color": 0,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "type": 1,
+            "color": 0,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "type": 1,
+            "color": 0,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "type": 1,
+            "color": 7,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "type": 1,
+            "color": 7,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "type": 1,
+            "color": 7,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "type": 1,
+            "color": 4,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "type": 1,
+            "color": 4,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
         },
         {
             "x": 1,
             "y": 1,
+            "type": 1,
+            "color": 4,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "type": 1,
+            "color": 4,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "type": 1,
+            "color": 4,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "type": 1,
+            "color": 1,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "type": 1,
+            "color": 1,
+            "packageCount": 0,
+            "packageColors": [],
+            "hidden": false,
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        },
+        {
+            "x": 5,
+            "y": 5,
             "type": 2,
-            "color": 2,
-            "packageCount": 5,
+            "color": 3,
+            "packageCount": 3,
             "packageColors": [
-                0,
+                3,
                 2,
-                0,
-                0,
                 1
             ],
             "hidden": false,
-            "tunnelDir": 0
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
         },
         {
-            "x": 2,
-            "y": 1,
-            "type": 1,
-            "color": 0,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "type": 1,
-            "color": 1,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0
-        },
-        {
-            "x": 4,
-            "y": 1,
-            "type": 1,
-            "color": 2,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0
-        },
-        {
-            "x": 5,
-            "y": 1,
+            "x": 1,
+            "y": 5,
             "type": 2,
-            "color": 1,
-            "packageCount": 4,
+            "color": 0,
+            "packageCount": 3,
             "packageColors": [
-                1,
-                1,
-                1,
+                0,
+                5,
                 2
             ],
             "hidden": false,
-            "tunnelDir": 0
+            "tunnelDir": 0,
+            "magnetTutorialTarget": false
+        }
+    ],
+    "bucketColumns": 4,
+    "bucketDifficulty": 1,
+    "buckets": [
+        {
+            "x": 0,
+            "y": 0,
+            "color": 2
         },
         {
-            "x": 6,
+            "x": 1,
+            "y": 0,
+            "color": 2
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "color": 4
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "color": 4
+        },
+        {
+            "x": 0,
             "y": 1,
-            "type": 0,
-            "color": 0,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0
+            "color": 0
         },
         {
-            "x": 0,
-            "y": 2,
-            "type": 0,
-            "color": 0,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0
+            "x": 1,
+            "y": 1,
+            "color": 2
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "color": 7
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "color": 2
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "color": 4
         },
         {
             "x": 1,
             "y": 2,
-            "type": 0,
-            "color": 0,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0
+            "color": 2
         },
         {
             "x": 2,
             "y": 2,
-            "type": 1,
-            "color": 0,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0
+            "color": 4
         },
         {
             "x": 3,
             "y": 2,
-            "type": 1,
-            "color": 1,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0
-        },
-        {
-            "x": 4,
-            "y": 2,
-            "type": 1,
-            "color": 2,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0
-        },
-        {
-            "x": 5,
-            "y": 2,
-            "type": 0,
-            "color": 0,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0
-        },
-        {
-            "x": 6,
-            "y": 2,
-            "type": 0,
-            "color": 0,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0
+            "color": 1
         },
         {
             "x": 0,
             "y": 3,
-            "type": 0,
-            "color": 0,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0
+            "color": 5
         },
         {
             "x": 1,
             "y": 3,
-            "type": 0,
-            "color": 0,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0
+            "color": 2
         },
         {
             "x": 2,
             "y": 3,
-            "type": 0,
-            "color": 0,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0
+            "color": 4
         },
         {
             "x": 3,
             "y": 3,
-            "type": 1,
-            "color": 0,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0
+            "color": 1
         },
         {
-            "x": 4,
-            "y": 3,
-            "type": 0,
-            "color": 0,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0
-        },
-        {
-            "x": 5,
-            "y": 3,
-            "type": 0,
-            "color": 0,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0
-        },
-        {
-            "x": 6,
-            "y": 3,
-            "type": 0,
-            "color": 0,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "type": 0,
-            "color": 0,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0
+            "x": 1,
+            "y": 10,
+            "color": 2
         },
         {
             "x": 1,
             "y": 4,
-            "type": 0,
-            "color": 0,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0
+            "color": 2
         },
         {
             "x": 2,
             "y": 4,
-            "type": 1,
-            "color": 1,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": true,
-            "tunnelDir": 0
+            "color": 4
         },
         {
             "x": 3,
             "y": 4,
-            "type": 1,
-            "color": 2,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": true,
-            "tunnelDir": 0
-        },
-        {
-            "x": 4,
-            "y": 4,
-            "type": 1,
-            "color": 0,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": true,
-            "tunnelDir": 0
-        },
-        {
-            "x": 5,
-            "y": 4,
-            "type": 0,
-            "color": 0,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0
-        },
-        {
-            "x": 6,
-            "y": 4,
-            "type": 0,
-            "color": 0,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0
+            "color": 2
         },
         {
             "x": 0,
             "y": 5,
-            "type": 0,
-            "color": 0,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0
+            "color": 0
         },
         {
             "x": 1,
             "y": 5,
-            "type": 1,
-            "color": 1,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": true,
-            "tunnelDir": 0
+            "color": 4
         },
         {
             "x": 2,
             "y": 5,
-            "type": 1,
-            "color": 2,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": true,
-            "tunnelDir": 0
+            "color": 4
         },
         {
-            "x": 5,
+            "x": 3,
             "y": 5,
-            "type": 1,
-            "color": 2,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": true,
-            "tunnelDir": 0
-        },
-        {
-            "x": 6,
-            "y": 5,
-            "type": 0,
-            "color": 0,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0
+            "color": 1
         },
         {
             "x": 0,
             "y": 6,
-            "type": 1,
-            "color": 0,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": true,
-            "tunnelDir": 0
+            "color": 0
         },
         {
             "x": 1,
             "y": 6,
-            "type": 1,
-            "color": 1,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": true,
-            "tunnelDir": 0
+            "color": 3
         },
         {
             "x": 2,
             "y": 6,
-            "type": 1,
-            "color": 2,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": true,
-            "tunnelDir": 0
+            "color": 7
         },
         {
             "x": 3,
             "y": 6,
-            "type": 2,
-            "color": 0,
-            "packageCount": 6,
-            "packageColors": [
-                0,
-                0,
-                2,
-                1,
-                1,
-                2
-            ],
-            "hidden": false,
-            "tunnelDir": 0
+            "color": 1
         },
         {
-            "x": 4,
-            "y": 6,
-            "type": 2,
-            "color": 2,
-            "packageCount": 7,
-            "packageColors": [
-                1,
-                2,
-                2,
-                0,
-                0,
-                0,
-                1
-            ],
-            "hidden": false,
-            "tunnelDir": 0
+            "x": 0,
+            "y": 7,
+            "color": 0
         },
         {
-            "x": 5,
-            "y": 6,
-            "type": 1,
-            "color": 0,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": true,
-            "tunnelDir": 0
+            "x": 1,
+            "y": 7,
+            "color": 2
         },
         {
-            "x": 6,
-            "y": 6,
-            "type": 1,
-            "color": 1,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": true,
-            "tunnelDir": 0
+            "x": 2,
+            "y": 7,
+            "color": 4
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "color": 1
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "color": 0
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "color": 0
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "color": 4
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "color": 1
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "color": 0
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "color": 2
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "color": 5
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "color": 1
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "color": 0
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "color": 5
+        },
+        {
+            "x": 3,
+            "y": 20,
+            "color": 0
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "color": 3
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "color": 2
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "color": 2
+        },
+        {
+            "x": 2,
+            "y": 18,
+            "color": 4
+        },
+        {
+            "x": 3,
+            "y": 11,
+            "color": 3
+        },
+        {
+            "x": 3,
+            "y": 22,
+            "color": 0
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "color": 0
+        },
+        {
+            "x": 2,
+            "y": 16,
+            "color": 4
+        },
+        {
+            "x": 3,
+            "y": 12,
+            "color": 2
+        },
+        {
+            "x": 0,
+            "y": 20,
+            "color": 0
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "color": 2
+        },
+        {
+            "x": 2,
+            "y": 17,
+            "color": 4
+        },
+        {
+            "x": 3,
+            "y": 13,
+            "color": 3
+        },
+        {
+            "x": 0,
+            "y": 21,
+            "color": 0
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "color": 2
+        },
+        {
+            "x": 2,
+            "y": 19,
+            "color": 0
+        },
+        {
+            "x": 3,
+            "y": 14,
+            "color": 4
+        },
+        {
+            "x": 0,
+            "y": 22,
+            "color": 0
+        },
+        {
+            "x": 1,
+            "y": 15,
+            "color": 3
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "color": 7
+        },
+        {
+            "x": 3,
+            "y": 15,
+            "color": 3
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "color": 2
+        },
+        {
+            "x": 1,
+            "y": 16,
+            "color": 4
+        },
+        {
+            "x": 2,
+            "y": 12,
+            "color": 7
+        },
+        {
+            "x": 3,
+            "y": 16,
+            "color": 3
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "color": 0
+        },
+        {
+            "x": 1,
+            "y": 17,
+            "color": 2
+        },
+        {
+            "x": 2,
+            "y": 14,
+            "color": 7
+        },
+        {
+            "x": 3,
+            "y": 17,
+            "color": 3
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "color": 0
+        },
+        {
+            "x": 1,
+            "y": 18,
+            "color": 3
+        },
+        {
+            "x": 2,
+            "y": 15,
+            "color": 7
+        },
+        {
+            "x": 0,
+            "y": 17,
+            "color": 1
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "color": 1
+        },
+        {
+            "x": 1,
+            "y": 19,
+            "color": 2
+        },
+        {
+            "x": 2,
+            "y": 13,
+            "color": 7
+        },
+        {
+            "x": 2,
+            "y": 21,
+            "color": 0
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "color": 0
+        },
+        {
+            "x": 1,
+            "y": 20,
+            "color": 2
+        },
+        {
+            "x": 2,
+            "y": 20,
+            "color": 0
+        },
+        {
+            "x": 0,
+            "y": 19,
+            "color": 7
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "color": 7
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "color": 5
+        },
+        {
+            "x": 1,
+            "y": 21,
+            "color": 2
+        },
+        {
+            "x": 3,
+            "y": 19,
+            "color": 5
+        },
+        {
+            "x": 3,
+            "y": 21,
+            "color": 0
+        },
+        {
+            "x": 3,
+            "y": 18,
+            "color": 5
         }
     ]
 }
