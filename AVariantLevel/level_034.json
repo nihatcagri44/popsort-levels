@@ -488,36 +488,6 @@
             "hidden": false,
             "tunnelDir": 0,
             "magnetTutorialTarget": false
-        },
-        {
-            "x": 5,
-            "y": 5,
-            "type": 2,
-            "color": 3,
-            "packageCount": 3,
-            "packageColors": [
-                3,
-                2,
-                1
-            ],
-            "hidden": false,
-            "tunnelDir": 0,
-            "magnetTutorialTarget": false
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "type": 2,
-            "color": 0,
-            "packageCount": 3,
-            "packageColors": [
-                0,
-                5,
-                2
-            ],
-            "hidden": false,
-            "tunnelDir": 0,
-            "magnetTutorialTarget": false
         }
     ],
     "bucketColumns": 4,
@@ -762,6 +732,27 @@
             "x": 3,
             "y": 11,
             "color": 4
+        }
+    ],
+    "plates": [],
+    "boxes": [
+        {
+            "x": 5,
+            "y": 5,
+            "bagColors": [
+                3,
+                3,
+                3
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "bagColors": [
+                0,
+                0,
+                0
+            ]
         }
     ]
 }

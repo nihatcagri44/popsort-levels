@@ -2,8 +2,8 @@
     "levelNumber": 49,
     "gridCols": 7,
     "gridRows": 7,
-    "hiddenBucketsEnabled": false,
-    "hiddenBucketCount": 3,
+    "hiddenBucketsEnabled": true,
+    "hiddenBucketCount": 9,
     "cells": [
         {
             "x": 0,
@@ -724,5 +724,7 @@
             "y": 14,
             "color": 9
         }
-    ]
+    ],
+    "plates": [],
+    "boxes": []
 }

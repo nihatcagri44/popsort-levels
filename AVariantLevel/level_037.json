@@ -524,21 +524,6 @@
         },
         {
             "x": 5,
-            "y": 0,
-            "type": 2,
-            "color": 3,
-            "packageCount": 3,
-            "packageColors": [
-                3,
-                2,
-                0
-            ],
-            "hidden": false,
-            "tunnelDir": 1,
-            "magnetTutorialTarget": false
-        },
-        {
-            "x": 5,
             "y": 2,
             "type": 2,
             "color": 4,
@@ -885,6 +870,18 @@
             "x": 2,
             "y": 16,
             "color": 0
+        }
+    ],
+    "plates": [],
+    "boxes": [
+        {
+            "x": 5,
+            "y": 0,
+            "bagColors": [
+                0,
+                3,
+                2
+            ]
         }
     ]
 }

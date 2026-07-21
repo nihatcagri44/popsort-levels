@@ -3,7 +3,7 @@
     "gridCols": 7,
     "gridRows": 7,
     "hiddenBucketsEnabled": false,
-    "hiddenBucketCount": 3,
+    "hiddenBucketCount": 6,
     "cells": [
         {
             "x": 0,
@@ -259,17 +259,6 @@
             "magnetTutorialTarget": false
         },
         {
-            "x": 3,
-            "y": 2,
-            "type": 1,
-            "color": 3,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0,
-            "magnetTutorialTarget": false
-        },
-        {
             "x": 2,
             "y": 2,
             "type": 1,
@@ -307,28 +296,6 @@
             "y": 4,
             "type": 1,
             "color": 4,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0,
-            "magnetTutorialTarget": false
-        },
-        {
-            "x": 5,
-            "y": 3,
-            "type": 1,
-            "color": 3,
-            "packageCount": 0,
-            "packageColors": [],
-            "hidden": false,
-            "tunnelDir": 0,
-            "magnetTutorialTarget": false
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "type": 1,
-            "color": 3,
             "packageCount": 0,
             "packageColors": [],
             "hidden": false,
@@ -733,5 +700,44 @@
             "y": 14,
             "color": 0
         }
-    ]
+    ],
+    "plates": [
+        {
+            "cells": [
+                {
+                    "x": 5,
+                    "y": 3
+                }
+            ],
+            "count": 9,
+            "x": 0,
+            "y": 0,
+            "size": 0
+        },
+        {
+            "cells": [
+                {
+                    "x": 1,
+                    "y": 3
+                }
+            ],
+            "count": 9,
+            "x": 0,
+            "y": 0,
+            "size": 0
+        },
+        {
+            "cells": [
+                {
+                    "x": 3,
+                    "y": 2
+                }
+            ],
+            "count": 6,
+            "x": 0,
+            "y": 0,
+            "size": 0
+        }
+    ],
+    "boxes": []
 }
